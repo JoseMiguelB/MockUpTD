@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundación Mujeres Empresarias Marie Poussepin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap');
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .hero-bg {
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1595667390233-297ca50c53be?auto=format&fit=crop&q=80&w=1600');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body class="bg-stone-50 text-stone-800">
+
+    <nav class="bg-white/90 backdrop-blur-md shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="w-10 h-10 bg-green-700 rounded-full flex items-center justify-center text-white font-bold">
+                    MP</div>
+                <span class="text-xl font-bold text-green-900 hidden sm:block">Fundación Marie Poussepin</span>
+            </div>
+            <div class="hidden lg:flex space-x-8 font-semibold text-sm uppercase tracking-wider">
+                <a href="#inicio" class="text-green-800 hover:text-green-600 transition">Inicio</a>
+                <a href="#nosotros" class="text-green-800 hover:text-green-600 transition">La Fundación</a>
+                <a href="#huerta" class="text-green-800 hover:text-green-600 transition">Nuestra Huerta</a>
+                <a href="#tienda" class="text-green-800 hover:text-green-600 transition">Tienda Solidaria</a>
+                <a href="#contacto" class="text-green-800 hover:text-green-600 transition">Contacto</a>
+            </div>
+            <button class="lg:hidden text-2xl text-green-900"><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <section id="inicio" class="hero-bg h-screen flex items-center text-white px-6">
+        <div class="container mx-auto">
+            <div class="max-w-3xl">
+                <span class="bg-green-700 px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest">Fundación
+                    Social</span>
+                <h1 class="text-5xl md:text-7xl font-bold mt-4 mb-6 leading-tight">Creciendo juntas desde la tierra.
+                </h1>
+                <p class="text-xl md:text-2xl mb-10 font-light opacity-90">Fortalecemos el liderazgo y la autonomía de
+                    las mujeres empresarias a través de proyectos productivos sostenibles.</p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#tienda"
+                        class="bg-white text-green-900 px-8 py-4 rounded-lg font-bold text-center hover:bg-green-50 transition">Explorar
+                        Tienda</a>
+                    <a href="#nosotros"
+                        class="border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-center hover:bg-white/10 transition">Nuestra
+                        Labor</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?auto=format&fit=crop&q=80&w=800"
+                        alt="Mujeres trabajando" class="rounded-2xl shadow-2xl">
+                </div>
+                <div>
+                    <h2 class="text-4xl font-bold text-green-900 mb-6">Nuestra Esencia</h2>
+                    <p class="text-lg text-stone-600 leading-relaxed mb-8">
+                        La <strong>Fundación Mujeres Empresarias Marie Poussepin</strong> nace como un faro de
+                        oportunidad para la comunidad local. No solo cultivamos la tierra; cultivamos sueños de
+                        independencia y progreso para mujeres valientes que transforman su entorno.
+                    </p>
+                    <div class="grid sm:grid-cols-2 gap-8">
+                        <div>
+                            <h3 class="text-xl font-bold text-green-800 mb-3"><i class="fas fa-seedling mr-2"></i>
+                                Misión</h3>
+                            <p class="text-sm text-stone-500">Empoderar a mujeres mediante el desarrollo agrícola y
+                                comercial, fortaleciendo su presencia en mercados digitales bajo el enfoque del ODS 9.
+                            </p>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-green-800 mb-3"><i class="fas fa-eye mr-2"></i> Visión
+                            </h3>
+                            <p class="text-sm text-stone-500">Ser reconocidas en 2026 como una plataforma líder en
+                                economía solidaria, logrando que cada emprendedora tenga voz y mercado nacional.</p>
+                        </div>
+                    </div>
+                    <div class="mt-10 p-6 bg-green-50 rounded-xl border-l-4 border-green-700">
+                        <p class="italic text-green-900 font-medium">"Transformamos el trabajo manual de WhatsApp en una
+                            infraestructura digital sólida para crecer juntas."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="huerta" class="py-24 bg-stone-100">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-green-900 mb-4">La Huerta Comunitaria</h2>
+                <div class="w-24 h-1 bg-green-600 mx-auto"></div>
+                <p class="mt-6 text-stone-600 max-w-2xl mx-auto">Productos orgánicos, libres de químicos, sembrados con
+                    técnicas tradicionales que respetan el ciclo de la naturaleza.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="group relative overflow-hidden rounded-2xl">
+                    <img src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&q=80&w=600"
+                        class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
+                        <div>
+                            <h4 class="text-white font-bold text-xl">Sostenibilidad</h4>
+                            <p class="text-gray-300 text-sm">Cuidado del suelo y rotación de cultivos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden rounded-2xl">
+                    <img src="https://images.unsplash.com/photo-1592419044706-39796d40f98c?auto=format&fit=crop&q=80&w=600"
+                        class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
+                        <div>
+                            <h4 class="text-white font-bold text-xl">Orgánico</h4>
+                            <p class="text-gray-300 text-sm">Sin pesticidas, solo abono natural.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden rounded-2xl">
+                    <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&q=80&w=600"
+                        class="w-full h-80 object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
+                        <div>
+                            <h4 class="text-white font-bold text-xl">Comunidad</h4>
+                            <p class="text-gray-300 text-sm">El fruto del esfuerzo compartido.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tienda" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-green-900 mb-16">Nuestros Productos</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+
+                <div
+                    class="bg-white rounded-xl shadow-lg border border-stone-100 overflow-hidden hover:border-green-300 transition">
+                    <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=500"
+                        class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <span class="text-xs text-green-600 font-bold tracking-widest uppercase">Huerta</span>
+                        <h3 class="text-lg font-bold my-2">Caja de Cosecha Semanal</h3>
+                        <p class="text-stone-500 text-sm mb-4 leading-relaxed">Selección de hortalizas y frutas frescas
+                            de temporada directamente a tu hogar.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xl font-bold text-green-800">$45.000</span>
+                            <button onclick="pedido('Caja de Cosecha')"
+                                class="bg-green-600 text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-green-700 transition">
+                                <i class="fab fa-whatsapp"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-white rounded-xl shadow-lg border border-stone-100 overflow-hidden hover:border-green-300 transition">
+                    <img src="https://www.lazayafruits.com/es/wp-content/uploads/sites/2/2025/03/frutas-para-mermelada.jpg"
+                        class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <span class="text-xs text-amber-600 font-bold tracking-widest uppercase">Tienda</span>
+                        <h3 class="text-lg font-bold my-2">Mermelada de la Casa</h3>
+                        <p class="text-stone-500 text-sm mb-4 leading-relaxed">Elaborada artesanalmente por nuestras
+                            mujeres con frutas de la huerta.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xl font-bold text-green-800">$18.000</span>
+                            <button onclick="pedido('Mermelada')"
+                                class="bg-green-600 text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-green-700 transition">
+                                <i class="fab fa-whatsapp"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-white rounded-xl shadow-lg border border-stone-100 overflow-hidden hover:border-green-300 transition">
+                    <img src="https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=500"
+                        class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <span class="text-xs text-green-600 font-bold tracking-widest uppercase">Huerta</span>
+                        <h3 class="text-lg font-bold my-2">Kit de Hierbas Frescas</h3>
+                        <p class="text-stone-500 text-sm mb-4 leading-relaxed">Albahaca, romero y menta listas para tus
+                            infusiones o cocina.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xl font-bold text-green-800">$12.000</span>
+                            <button onclick="pedido('Kit Hierbas')"
+                                class="bg-green-600 text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-green-700 transition">
+                                <i class="fab fa-whatsapp"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-white rounded-xl shadow-lg border border-stone-100 overflow-hidden hover:border-green-300 transition">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG"
+                        class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <span class="text-xs text-amber-600 font-bold tracking-widest uppercase">Tienda</span>
+                        <h3 class="text-lg font-bold my-2">Café Especial Marie</h3>
+                        <p class="text-stone-500 text-sm mb-4 leading-relaxed">Granos seleccionados y tostados
+                            artesanalmente con perfil de chocolate.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xl font-bold text-green-800">$32.000</span>
+                            <button onclick="pedido('Café Especial')"
+                                class="bg-green-600 text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-green-700 transition">
+                                <i class="fab fa-whatsapp"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 bg-green-900 text-white text-center">
+        <div class="container mx-auto px-6">
+            <h4 class="text-sm font-bold tracking-widest uppercase opacity-70 mb-4">Compromiso Global</h4>
+            <h3 class="text-3xl font-bold mb-4">Industria, Innovación e Infraestructura (ODS 9)</h3>
+            <p class="max-w-2xl mx-auto opacity-80">Este sitio web representa el salto tecnológico de la Fundación,
+                profesionalizando procesos y democratizando el acceso a la economía digital para todas nuestras
+                emprendedoras.</p>
+        </div>
+    </section>
+
+    <section id="contacto" class="py-24 bg-stone-900 text-white">
+        <div class="container mx-auto px-6 grid md:grid-cols-2 gap-20">
+            <div>
+                <h2 class="text-4xl font-bold mb-8">¿Deseas apoyar nuestra labor?</h2>
+                <p class="text-stone-400 mb-10">Ya sea como aliado donante, voluntario o cliente, tu participación es la
+                    semilla que hace crecer este proyecto social.</p>
+                <div class="space-y-6">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-green-700/20 rounded flex items-center justify-center text-green-500">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <span>contacto@mariepoussepin.org</span>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-green-700/20 rounded flex items-center justify-center text-green-500">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <span>+57 300 000 0000</span>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-green-700/20 rounded flex items-center justify-center text-green-500">
+                            <i class="fas fa-location-dot"></i>
+                        </div>
+                        <span>Sede Principal, Bogotá, Colombia</span>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white p-8 rounded-2xl">
+                <h3 class="text-stone-900 text-2xl font-bold mb-6">Envíanos un mensaje</h3>
+                <form class="space-y-4">
+                    <input type="text" placeholder="Tu Nombre"
+                        class="w-full p-4 rounded-lg bg-stone-100 text-stone-900 border-none focus:ring-2 focus:ring-green-600 outline-none">
+                    <input type="email" placeholder="Tu Correo"
+                        class="w-full p-4 rounded-lg bg-stone-100 text-stone-900 border-none focus:ring-2 focus:ring-green-600 outline-none">
+                    <textarea placeholder="¿En qué podemos ayudarte?" rows="4"
+                        class="w-full p-4 rounded-lg bg-stone-100 text-stone-900 border-none focus:ring-2 focus:ring-green-600 outline-none"></textarea>
+                    <button
+                        class="w-full bg-green-700 text-white font-bold py-4 rounded-lg hover:bg-green-800 transition">Enviar
+                        Solicitud</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10 bg-black text-stone-600 text-center text-sm border-t border-stone-800">
+        <p class="mb-4">&copy; 2026 Fundación Mujeres Empresarias Marie Poussepin. Todos los derechos reservados.</p>
+        <div class="flex justify-center gap-6">
+            <a href="#" class="hover:text-white transition">Instagram</a>
+            <a href="#" class="hover:text-white transition">Facebook</a>
+            <a href="#" class="hover:text-white transition">WhatsApp Business</a>
+        </div>
+    </footer>
+
+    <script>
+        function pedido(item) {
+            const num = "573000000000";
+            const text = encodeURIComponent(`Hola Fundación Marie Poussepin, quiero solicitar información sobre: ${item}. ¡Muchas gracias!`);
+            window.open(`https://wa.me/${num}?text=${text}`, '_blank');
+        }
+    </script>
+</body>
+
+</html>
